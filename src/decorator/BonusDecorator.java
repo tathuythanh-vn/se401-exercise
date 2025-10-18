@@ -17,7 +17,7 @@ public class BonusDecorator extends EmployeeDecorator {
 
     @Override
     public void showInfo() {
-        System.out.println("🏅 Bonus applied to " + name + ": +" + bonus);
+        System.out.println("🏅 Bonus applied to " + this.getName() + ": +" + bonus);
         System.out.println("→ Total salary (with bonus): " + getSalary());
     }
 }

@@ -8,11 +8,11 @@ public class Staff extends Employee {
 
     @Override
     public double getSalary() {
-        return baseSalary;
+        return this.salary;
     }
 
     @Override
     public void showInfo() {
-        System.out.println("- " + name + " : " + getSalary());
+        System.out.println("- " + this.getName() + " : " + getSalary());
     }
 }

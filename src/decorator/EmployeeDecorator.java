@@ -6,7 +6,7 @@ public abstract class EmployeeDecorator extends Employee {
     protected Employee decoratedEmployee;
 
     public EmployeeDecorator(Employee decoratedEmployee) {
-        super(decoratedEmployee.getName(), decoratedEmployee.getBaseSalary());
+        super(decoratedEmployee.getName(), decoratedEmployee.getSalary());
         this.decoratedEmployee = decoratedEmployee;
     }
 
